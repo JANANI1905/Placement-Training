@@ -1,5 +1,10 @@
+def fibonacci(n):
+    a, b = 0, 1
+    series = []
+    while a < n:
+        series.append(a)
+        a, b = b, a + b
+    return series
 
-a = 5
-b = 10
-maximum = max(a, b)
-print("The maximum value is", maximum )
+n = 20
+print(fibonacci(n))
