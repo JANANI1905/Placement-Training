@@ -1,0 +1,8 @@
+import numpy as np
+    
+def reverse_rows_columns(array):
+  return array[::-1, ::-1]
+    
+array = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+reversed_array = reverse_rows_columns(array)
+print(reversed_array)
