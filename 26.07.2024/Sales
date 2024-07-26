@@ -1,0 +1,16 @@
+sales = float(input("Enter the income: "))
+
+if sales >= 50000:
+    income = 375 + 0.16 * sales
+elif 40000 <= sales < 50000:
+    income = 370 + 0.14 * sales
+elif 30000 <= sales < 40000:
+    income = 325 + 0.12 * sales
+elif 20000 <= sales < 30000:
+    income = 300 + 0.09 * sales
+elif 10000 <= sales < 20000:
+    income = 250 + 0.05 * sales
+else:
+    income = 200 + 0.03 * sales
+
+print("Commission:", income)
