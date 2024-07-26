@@ -1,0 +1,7 @@
+text = "Hello, World!"
+
+lowercase_text = text.lower()
+uppercase_text = text.upper()
+
+print("Lowercase:", lowercase_text)
+print("Uppercase:", uppercase_text)
