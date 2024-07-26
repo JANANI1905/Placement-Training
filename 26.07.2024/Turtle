@@ -1,0 +1,12 @@
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("white")
+
+artist = turtle.Turtle()
+artist.fillcolor("red")
+artist.begin_fill()
+artist.circle(100)
+artist.end_fill()
+
+turtle.done()
