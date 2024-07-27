@@ -3,7 +3,7 @@ int main()
 {
     int sum,j1,j2,j3;
     float ave;
-    printf("Enter three integers: ");
+    printf("Enter three integers : ");
     scanf("\n%d%d%d",&j1,&j2,&j3) ;
     sum=j1+j2+j3;
     ave=sum/3.0;
