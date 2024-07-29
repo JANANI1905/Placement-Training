@@ -7,4 +7,4 @@ def printValue(a,b):
         print(b)
     else:
         print("Sorry")   
-printValue("apple","orange")
+printValue("apple","grapes")
