@@ -6,4 +6,4 @@ ab_avg = [grade for grade in grades if grade > avg_grade]
 print(f"Average Grade: {avg_grade:.2f}")
 print(f"Highest Grade: {ht_grade}")
 print(f"Lowest Grade: {lt_grade}")
-print(f"Above Average: {ab_average}")
+print(f"Above Average: {ab_average}") 
